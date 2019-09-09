@@ -1,0 +1,63 @@
+/*-- the margin is set to 0 so that the div can encompass
+the page without any border blocking it */
+body{
+  margin:0;
+  /*everything in the body will be in the center
+  this works if we have full width block elements like h1 */
+
+  text-align:center;
+  /* specify to use palatino first but if user doesn't have it then
+  use Helvetica and if not then arial but if not then just use the default sans serif
+  that the user has
+  font-family: palatino, Helvetica, Arial, sans-serif;
+
+  /*this is being embedded as a font for the user*/
+  font-family:  "Merriweather", serif;
+
+
+
+}
+
+h1{
+  /* CENTER WITH ( horizontal ) MARGIN INSTEAD
+  so if h1 had a width of 10% then it'd still be centered*/
+  margin: 0 auto;
+  font-family: "Sacramento", serif;
+}
+
+h2{
+  font-family: "RedHatDisplay", serif;
+}
+h3{
+  font-family: "RedHatDisplay", serif;
+}
+
+.top-container{
+  background-color:#E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  /*
+  border-radius: 50px;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+*/
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.bottomcloud{
+  position: absolute;
+  left: 175px;
+}
+
+.topcloud{
+  position: relative;
+  left: 200px;
+}
